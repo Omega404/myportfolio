@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="Juan Francisco Gonzalez">
+  <meta name="description" content="Portfolio de Juan Francisco González: perfil, habilidades, proyectos y contacto.">
+  <meta name="author" content="Juan Francisco González">
 
   <title>Perfil | Portfolio</title>
 
   <!-- Favicon -->
   <link rel="icon" href="./assets/images/gt_favicon.png" type="image/png">
 
-  <!-- Bootstrap (usa HTTPS) -->
+  <!-- Bootstrap (HTTPS) -->
   <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
 
   <!-- Icon font (HTTPS) -->
@@ -22,170 +22,176 @@
 
   <!-- Estilos personalizados -->
   <link rel="stylesheet" href="./assets/css/styles.css">
-
-  <!-- Compatibilidad IE (opcional) -->
-  <!--[if lt IE 9]>
-    <script src="./assets/js/html5shiv.js"></script>
-  <![endif]-->
 </head>
 
 <body>
+<header id="header" role="banner" aria-label="Encabezado">
+  <div id="head" class="parallax" parallax-speed="1">
+    <h1 id="logo" class="text-center">
+      <img class="img-circle" src="assets/images/perfil.png" alt="Foto de perfil de Juan Francisco González" loading="lazy">
+      <span class="title">Juan Francisco González</span>
+      <span class="tagline">Estudiante de Ingeniería en Sistemas</span>
+    </h1>
+  </div>
 
-<header id="header">
-	<div id="head" class="parallax" parallax-speed="1">
-		<h1 id="logo" class="text-center">
-			<img class="img-circle" src="assets/images/perfil.png" alt="">
-			<span class="title">Juan Francisco Gonzalez</span>
-			<span class="tagline">Estudiante de Ingenieria en Sistemas</span>
-		</h1>
-	</div>
-
-	<nav class="navbar navbar-default navbar-sticky">
-		<div class="container-fluid">
-			
-			
-			
-			<div class="navbar-collapse collapse">
-				
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Perfil</a></li>
-					<li><a href="education.html">Educación</a></li>
-					<li><a href="experience.html">Experiencia</a></li>
-					<li><a href="projects.html">Proyectos</a></li>
-				</ul>
-			
-			</div><!--/.nav-collapse -->			
-		</div>	
-	</nav>
+  <nav class="navbar navbar-default navbar-sticky" role="navigation" aria-label="Navegación principal">
+    <div class="container-fluid">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Perfil</a></li>
+          <li><a href="education.html">Educación</a></li>
+          <li><a href="experience.html">Experiencia</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
 </header>
 
-<main id="main">
+<main id="main" role="main">
+  <div class="container">
+    <div class="row topspace">
+      <div class="col-sm-8 col-sm-offset-2">
 
-	<div class="container">
-		<div class="row topspace">
-			<div class="col-sm-8 col-sm-offset-2">
-															
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">			
-						</div>
-						<h1 class="entry-title"><a>Perfil</a></h1>
-					</header>
-					<div class="entry-content">
-						<p>Estudiante de Ingenieria en sistemas de la Universidad de la Cuenca del Plata, 
-							buscando el desarrollo de mis habilidades tanto en informática como en otros ámbitos. 
-							Como aspirante a ingeniero busco el desarrollo de mis
-							habilidades tanto en informática como en otros ámbitos.
-							Mis fortalezas son mi adaptabilidad y capacidad de
-							aprendizaje. Mis gustos además de la programación
-							consisten en el diseño y la impresión 3d.</p>
-					</div>
-				</article>
- 				
-				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta"> 
- 							<span class="posted-on"><time class="entry-date published" date="2013-06-17"></time></span>			
- 						</div> 
- 						<h1 class="entry-title"><a>Habilidades</a></h1>
-					</header> 
-					<div class="entry-content"> 
-						<p>· Adaptabilidad, autonomía, trabajo en equipo</p>
-						<p>· Programación orientada a objeto, desarrollo web, gestion de base de datos</p>
-						<p>· Analisis, diseño, programación, gestion</p>
-					</div> 
-				</article><!-- #post-## -->
+        <!-- PERFIL -->
+        <article class="post">
+          <header class="entry-header">
+            <h1 class="entry-title"><a>Perfil</a></h1>
+          </header>
+          <div class="entry-content">
+            <p>
+              Estudiante de <strong>Ingeniería en Sistemas</strong> en la Universidad de la Cuenca del Plata,
+              orientado al desarrollo de software y a la creación de productos digitales que combinan
+              tecnología, datos y diseño. Mis fortalezas incluyen <em>adaptabilidad</em>, <em>aprendizaje autónomo</em>
+              y <em>trabajo en equipo</em>. Además de la programación, me interesan el diseño y la impresión 3D.
+            </p>
+          </div>
+        </article>
 
- 				<article class="post">
-					<header class="entry-header">
- 						<div class="entry-meta">			
- 						</div> 
- 						<h1 class="entry-title"><a>Programas y Herramientas</a></h1>
-					</header> 
-					<div class="entry-content"> 
-						<p>.Excel, Word y PowerPoint</p>
-						<p>.Visual Studio, Github, MySqlWorkbench</p>
-						<p>.Blender, Cura, Photoshop, Sony Vegas</p>
-						<p>.C++, Python, Ruby, Html, Css, JavaScript, .Net,  Pytorch</p>
-					</div> 
-				</article><!-- #post-## -->
-											
-				<article class="post">
-					<header class="entry-header"> 
-						<div class="entry-meta"> 
-							<span class="posted-on"><time class="entry-date published" date="2013-04-04"></time></span>			
-						</div>
-						<h1 class="entry-title"><a>Idiomas</a></h1>
-					</header>
-					<div class="entry-content">
-						<p>· Español: Nativo</p>
-						<p>· Ingles: Avanzado (C1)</p>
-						<p>· Portuges: Intermedio</p>
-					</div>
- 				</article><!-- #post-## -->
-			</div> 
-		</div>
-	
+        <!-- HABILIDADES -->
+        <article class="post">
+          <header class="entry-header">
+            <h1 class="entry-title"><a>Habilidades</a></h1>
+          </header>
+          <div class="entry-content">
+            <p>· Adaptabilidad, autonomía, trabajo en equipo</p>
+            <p>· Programación orientada a objetos, desarrollo web, gestión de bases de datos</p>
+            <p>· Análisis, diseño, programación, gestión</p>
+          </div>
+        </article>
 
-	</div>	<!-- /container -->
+        <!-- PROGRAMAS Y HERRAMIENTAS -->
+        <article class="post">
+          <header class="entry-header">
+            <h1 class="entry-title"><a>Programas y Herramientas</a></h1>
+          </header>
+          <div class="entry-content">
+            <p>· Excel, Word, PowerPoint</p>
+            <p>· Visual Studio, GitHub, MySQL Workbench</p>
+            <p>· Blender, Cura, Photoshop, Sony Vegas</p>
+            <p>· C++, Python, Ruby, HTML, CSS, JavaScript, .NET, PyTorch</p>
+          </div>
+        </article>
 
+        <!-- IDIOMAS -->
+        <article class="post">
+          <header class="entry-header">
+            <h1 class="entry-title"><a>Idiomas</a></h1>
+          </header>
+          <div class="entry-content">
+            <p>· Español: Nativo</p>
+            <p>· Inglés: Avanzado (C1)</p>
+            <p>· Portugués: Intermedio</p>
+          </div>
+        </article>
+
+        <!-- VIDEO DE PRESENTACIÓN (requisito PPS) -->
+        <article class="post" aria-labelledby="video-title">
+          <header class="entry-header">
+            <h1 id="video-title" class="entry-title"><a>Video de presentación (30–60 s)</a></h1>
+          </header>
+          <div class="entry-content">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                      src="https://youtu.be/WyYbqO8l78I"
+                      title="Presentación de Juan Francisco González"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen loading="lazy"></iframe>
+            </div>
+            <p class="help-block" style="margin-top:8px;">
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
 </main>
 
-<footer id="footer" class="topspace">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Contacto</h3>
-				<div class="widget-body">
-					<p>+54 3794 813740<br>
-						<a href="mailto:#">JuanFgonzalez3098@gmail.com</a><br>
-						<br>
-						Corrientes; Capital
-					</p>	
-				</div>
-			</div>
+<footer id="footer" class="topspace" role="contentinfo" aria-label="Pie de página">
+  <div class="container">
+    <div class="row">
 
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Redes</h3>
-				<div class="widget-body">
-					<p class="follow-me-icons">
-						<a href=""><i class="fa fa-linkedin fa-2"></i></a>
-						<a href=""><i class="fa fa-github fa-2"></i></a>
-						<!--<a href=""><i class="fa fa-facebook fa-2"></i></a>-->
-					</p>
-				</div>
-			</div>
-		</div> <!-- /row of widgets -->
-	</div>
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Contacto</h3>
+        <div class="widget-body">
+          <p>
+            +54 3794 813740<br>
+            <a href="mailto:JuanFgonzalez3098@gmail.com">JuanFgonzalez3098@gmail.com</a><br><br>
+            Corrientes, Capital
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 widget">
+        <h3 class="widget-title">Redes</h3>
+        <div class="widget-body">
+          <p class="follow-me-icons">
+            <!-- Reemplazá el LinkedIn con tu URL real -->
+            <a href="https://www.linkedin.com/in/juan-francisco-gonz%C3%A1lez-junior-2a470223a/" target="_blank" rel="noopener">
+              <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://github.com/Omega404" target="_blank" rel="noopener">
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div> <!-- /row of widgets -->
+  </div>
 </footer>
 
 <footer id="underfooter">
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p> </p>
-				</div>
-			</div>
+  <div class="container">
+    <div class="row">
 
-			<div class="col-md-6 widget">
-				<div class="widget-body">
-					<p class="text-right">
-						Copyright &copy; 2023, Juan Francisco Gonzalez<br> 
-						<!-- /Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p> -->
-				</div>
-			</div>
+      <div class="col-md-6 widget">
+        <div class="widget-body">
+          <p>
+            <strong>Fecha de creación:</strong> 27/04/2023<br>
+            <strong>Última actualización:</strong> 29/08/2025
+          </p>
+        </div>
+      </div>
 
-		</div> <!-- /row of widgets -->
-	</div>
+      <div class="col-md-6 widget">
+        <div class="widget-body">
+          <p class="text-right">
+            Copyright &copy; 2023–2025, Juan Francisco González
+          </p>
+        </div>
+      </div>
+
+    </div> <!-- /row of widgets -->
+  </div>
 </footer>
 
-
-
-<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<!-- JS al final (HTTPS) -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js" integrity="sha256-XE9Yt6yqgQmJ1K4Ckqf8Fj9pG//0V9nGqQ1z7Y8zo4c=" crossorigin="anonymous"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="assets/js/template.js"></script>
 </body>
 </html>
